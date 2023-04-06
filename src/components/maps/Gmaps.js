@@ -15,7 +15,7 @@ const Gmaps = () => {
             <div class="contact-list-container">
                 <ul class="contact-list">
                     <li>Alamat Kos</li>
-                    <li>Jl. Siliwangi No.41, Sawah Gede, Cianjur, 43212</li>
+                    <li>3JGJ+W42, Cibangkong, Kec. Batununggal, Kota Bandung, Jawa Barat</li>
                 </ul>
                     <ul class="contact-list">
                         <li>instagram</li>
