@@ -1,0 +1,87 @@
+    /* Jumbotron */
+    .jumbotron {
+        margin: 0;
+        padding: 2rem 0 0 0;
+        background-color: #636363;
+        color: #fefefe;
+        }
+    
+        .jumbotron h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 48px;
+        }
+    
+        .jumbotron p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        }
+    
+    
+        /* about */
+        .about {
+        margin: 0 0 100px 0;
+        }
+    
+        .about h2 {
+        margin: 0 auto 20px auto;
+        border-bottom: 2px solid black;
+        width: 15%;
+        }
+    
+        .myCard {
+        font-family: "Montserrat", sans-serif;
+        padding: 5px 0 50px 0;
+        background-color: #636363;
+        }
+    
+        .myCard h1 {
+        font-size: 48px;
+        color: #fefefe;
+        padding:  0 0 20px 0;
+        }
+    
+        .myCard h5 {
+        border-bottom: 1px ridge black;
+        padding: 0 0 10px 0;
+        }
+    
+        .myCard .card-modify {
+            width: 100%;
+            padding: 30px 0  ;
+            margin: 0 0 20px 0;
+        }
+    
+        .myCard .card-text {
+            text-align: center;
+        }
+
+        .container .carousel-style {
+            margin: 40px auto;
+        }
+
+        .container .carousel-style .carousel-title {
+            margin: 0 0 30px 0;
+        }
+
+        .container .carousel-style h5 {
+            text-shadow: 0 0 10px black;
+        }
+
+        .carousel-item {
+            transition: transform 0.6s ease;
+        }
+
+        .carousel-item button .prev,
+        .carousel-item button .next {
+            transform: translateX(0);
+        }
+
+        .carousel-item button .next {
+        transform: translateX(100%);
+        }
+            
+        .carousel-item button .prev {
+        transform: translateX(-100%);
+        }

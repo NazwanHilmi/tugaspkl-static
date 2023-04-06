@@ -1,0 +1,97 @@
+
+        .contact-title {
+            margin: 20px auto;
+            text-align: center;
+            width: 30%;
+            border-bottom: 3px solid #384366;
+        }
+        
+        #map {
+            margin: 50px 0;
+            padding-bottom: 1em;
+            position: relative;
+        }
+        
+        #map iframe {
+            width: 400px;
+            height: 350px;
+            max-width: 100%;
+        }
+        
+        .map-and-contact {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .contact-list-container {
+            margin-top: 50px;
+            text-align: center;
+        }
+        
+        .contact-list {
+            font-size: 20px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            text-align: center;
+            margin: 0 0 50px 0;
+            text-align: left;
+        
+        }
+        
+        .contact-list li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+        
+        .contact-list li a {
+            text-decoration: none;
+            color: rgba(129, 129, 243, 0.6);
+            transition: 0.5s;
+        }
+        
+        .contact-list li a:hover {
+            color: #f49a39;
+        }
+        
+        @media screen and (max-width : 768px) {
+            .contact-title {
+                margin: 25px auto;
+                text-align: center;
+                width: 40%;
+            }
+        
+            .map-and-contact {
+                align-items: center;
+                flex-direction: column;
+            }
+        
+            #map {
+                margin: 20px 0;
+                padding-bottom: 0;
+            }
+        
+            #map iframe {
+                width: 200px;
+                height: 350px;
+            }
+        
+            .contact-list {
+                padding: 0;
+                font-size: 15px;
+                margin: 0 0 25px 0;
+                text-align: center;
+            }
+        
+            .contact-list-container {
+                margin-top: 20px;
+            }
+        }
+        
+        @media screen and (max-width : 375px) {
+            .contact-title {
+                margin: 25px auto;
+                text-align: center;
+                width: 60%;
+            }
+        }
